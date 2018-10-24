@@ -5,8 +5,8 @@
       
    */ from math import atan2,degrees      
       def GetAngleOfLineBetweenTwoPoints(p1, p2):         
-      xDiff = p2.x - p1.x         
-      yDiff = p2.y - p1.y         
-      return degrees(atan2(yDiff, xDiff))                       
+             xDiff = p2.x - p1.x         
+             yDiff = p2.y - p1.y         
+             return degrees(atan2(yDiff, xDiff))                       
       
       REFERENCE: WikiCode     Available: http://wikicode.wikidot.com/get-angle-of-line-between-two-points     
